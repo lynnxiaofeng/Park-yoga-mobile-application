@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "yoga-app",
+    "slug": "yoga-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/app-icon-3.png",
+    "scheme": "yogaapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.yogaapp",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "splash": {
+       "image": "./assets/images/yoga-splash-icon.png",
+       "resizeMode": "contain",
+       "backgroundColor": "#117a65"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/icons/app-icon-3.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#117a65"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "This app uses location to show nearby yoga courses."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0694c8eb-fbf1-4e4a-bb5e-6b20c3ac9aa2"
+      }
+    },
+    "owner": "lynnxfng"
+  }
+}
