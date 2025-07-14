@@ -1,11 +1,6 @@
-# IFN666_25se1 Assessment 03 Submission
+#Main functions walkthrough
 
 **Student name:**  Xiaofeng Lin
-
-**Student ID:** n11724668
-
-# Response to marking criteria  
-# in my demo video,I have added 2 missing part: one is splash screen and one is function of search.
 
 ## Core: Development workflow (3 marks)
 
